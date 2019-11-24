@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
+
+#banner {
+    background-image: url("../kuvat/kellot.jpg");
+    background-position: bottom;
+    /*width: 100%;*/
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    border: 0px;
+    
+    
+}
+
+#banner .otsikko h1 {
+    color: whitesmoke;
+    position: bottom;
+    opacity: 0.9;
+    position: relative;
+    text-transform: uppercase;
+    top: 500px;
+    text-align: center;
+    
+}
+.mustaPalikka {
+    background-color: rgb(43, 41, 41);
+    width: 100%;
+    height: 50px;
+    border: solid;
+    border-color: rgb(43, 41, 41);
+    margin: 0;
+    list-style-type: none;
+    
+}    
+.mustaPalikka ul li {
+    
+    margin: 5px;
+    padding: 5px;
+    color: whitesmoke;
+    position: sticky;
+    top: 0;
+    
+}
+#seuraa {
+    position: sticky;
+    top: 0;
+    
+}    
+    
+    
+    
+}
+.mustaPalikka li {
+    
+    color: whitesmoke;
+    position: sticky;
+    top: 0;
+     
+       
+
+}
+    
+.mustaPalikka a {
+    float: left;
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 10px;    
+    
+    
+       
+    
+}
+.mustaPalikka li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+.active {
+    background-color: rgb(105, 101, 105);
+}
+
+
+/*@media screen and (max-width: 1500px) {
+    #otsikko h1 {
+      
+      text-align: bottom;
+      padding: 0px;
+      
+    }
+  }*/
+body {
+    margin: 0px;
+    /*text-align: center;*/
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+
+}
+
+.accordion {
+    /*background-color: rgb(61, 41, 61);*/
+    /*color: whitesmoke;*/
+    cursor: pointer;
+    padding: 18px;
+    width: 58%;
+    text-align: left;
+    border: 1;
+    outline: none;
+    transition: 0.4s;
+    opacity: 0.8;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  /*.active, .accordion:hover {
+    background-color: rgb(97, 26, 97);
+  }*/
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    /*background-color: rgb(61, 41, 61);*/
+    display: none;
+    overflow: hidden;
+    width: 56%;
+    opacity: 0.8;
+  }
+  footer {
+    background-color: rgb(43, 41, 41);
+    padding: 5px 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+    
+
+  }
+  footer h6 {
+      color: whitesmoke;
+      
+      
+  }
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+    text-align: center;
+    
+  }
