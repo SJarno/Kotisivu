@@ -97,6 +97,8 @@ body {
     /*text-align: center;*/
     padding: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    /*text-align: left;   
+    list-style-position: inside;*/
     
     
 
@@ -131,13 +133,11 @@ body {
   }
   footer {
     background-color: rgb(43, 41, 41);
-    padding: 5px 0px;
+    padding: 5px 0;
     position: fixed;
     bottom: 0;
     width: 100%;
     
-    
-
   }
   footer h6 {
       color: whitesmoke;
