@@ -23,6 +23,7 @@
     text-transform: uppercase;
     top: 500px;
     text-align: center;
+    font-size: 40px;
     
 }
 .mustaPalikka {
@@ -134,9 +135,10 @@ body {
   footer {
     background-color: rgb(43, 41, 41);
     padding: 5px 0;
-    position: fixed;
+    /*position: fixed;*/
     bottom: 0;
     width: 100%;
+    position: sticky;
     
   }
   footer h6 {
