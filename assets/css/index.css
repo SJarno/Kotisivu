@@ -179,7 +179,7 @@ body {
     overflow: hidden;
 
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 630px) {
     .mustaPalikka a, .mustaPalikka ul li, .mustaPalikka {
       float: none;
       width: 100%;
@@ -189,4 +189,11 @@ body {
       font-size: 1.5em;
     }
 
+  }
+  @media only screen and (min-width: 320px) and (max-width: 480px), (orientation: portrait) {
+    .mustaPalikka a, .mustaPalikka ul li, .mustaPalikka {
+      float: none;
+      width: 100%;
+      height: auto;
+    }
   }
