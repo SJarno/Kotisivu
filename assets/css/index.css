@@ -197,6 +197,9 @@ body {
       height: auto;
     }
     html {
-      font-size: 30px;
+      font-size: 40px;
+    }
+    #banner .otsikko h1 {
+      font-size: 1.5em;
     }
   }
