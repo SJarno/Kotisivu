@@ -7,7 +7,7 @@ html {
 }
 
 
-#banner {
+header {
     background-image: url("../kuvat/kellot.jpg");
     background-position: bottom; 
     background-size: cover;
@@ -18,7 +18,7 @@ html {
     
 }
 
-#banner .otsikko h1 {
+header .otsikko h1 {
     color: whitesmoke;
     position: bottom;
     opacity: 0.9;
@@ -49,7 +49,7 @@ html {
     top: 0;
     
 }
-#seuraa {
+nav {
     position: sticky;
     top: 0;
     
@@ -60,9 +60,7 @@ html {
     
     color: whitesmoke;
     position: sticky;
-    top: 0;
-     
-       
+    top: 0;      
 
 }
     
@@ -72,11 +70,7 @@ html {
     padding: 8px;
     text-decoration: none;
     color: whitesmoke;
-    margin: 5px;
-    
-    
-    
-       
+    margin: 5px;    
     
 }
 .mustaPalikka li a:hover:not(.active) {
@@ -179,27 +173,32 @@ body {
     overflow: hidden;
 
   }
-  @media screen and (max-width: 630px) {
+  @media screen and (max-width: 850px) {
     .mustaPalikka a, .mustaPalikka ul li, .mustaPalikka {
       float: none;
       width: 100%;
       height: auto;
     }
-    #banner .otsikko h1 {
-      font-size: 1.5em;
+    header .otsikko h1 {
+      font-size: 1.2rem;    
+      top: 250px;
     }
 
   }
   @media only screen and (min-width: 320px) and (max-width: 480px), (orientation: portrait) {
     .mustaPalikka a, .mustaPalikka ul li, .mustaPalikka {
       float: none;
-      width: 100%;
+      width: auto;
       height: auto;
+      padding: 8px;
+      
     }
     html {
-      font-size: 40px;
+      font-size: 50px;
     }
-    #banner .otsikko h1 {
-      font-size: 1.5em;
+    header .otsikko h1 {
+      font-size: 1.2rem;
+      position: top;
+      
     }
   }
