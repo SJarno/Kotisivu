@@ -97,8 +97,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     /*text-align: left;   
     list-style-position: inside;*/
-    
-    
+       
 
 }
 
@@ -135,14 +134,14 @@ body {
     bottom: 0;
     width: 100%;
     position: sticky;
-    height: 60px;
+    height: 40px;
     
   }
   footer h6 {
       color: whitesmoke;
       text-align: center;
       position: relative;
-      padding-top: 25px;
+      padding-top: 15px;
       
       
   }
@@ -201,4 +200,25 @@ body {
       position: top;
       
     }
+    footer {
+      height: auto;
+      
+      
+    }
   }
+
+  .teksti {
+    width: auto;
+    height: auto;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .paivakirjaTeksti {
+    width: auto;
+    height: auto;
+    text-align: center justify;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
