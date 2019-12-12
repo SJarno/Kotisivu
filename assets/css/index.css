@@ -82,14 +82,6 @@ nav {
 }
 
 
-/*@media screen and (max-width: 1500px) {
-    #otsikko h1 {
-      
-      text-align: bottom;
-      padding: 0px;
-      
-    }
-  }*/
 body {
     margin: 0px;
     /*text-align: center;*/
@@ -114,12 +106,7 @@ body {
     opacity: 0.8;
   }
   
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  /*.active, .accordion:hover {
-    background-color: rgb(97, 26, 97);
-  }*/
   
-  /* Style the accordion panel. Note: hidden by default */
   .panel {
     padding: 0 18px;
     /*background-color: rgb(61, 41, 61);*/
@@ -166,9 +153,9 @@ body {
   }*/
 
   #fantasiakaupungit img {
-    width: 50%;
+    width: auto;
     height: auto;
-    /*display: block;*/
+    display: block;
     overflow: hidden;
 
   }
@@ -202,7 +189,6 @@ body {
     }
     footer {
       height: auto;
-      
       
     }
   }
