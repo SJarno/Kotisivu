@@ -196,7 +196,7 @@ body {
   .teksti {
     width: auto;
     height: auto;
-    text-align: justify;
+    text-align: center justify;
     margin-left: 100px;
     margin-right: 100px;
   }
