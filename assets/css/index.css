@@ -199,6 +199,7 @@ body {
       height: auto;
       
     }
+    
   }
 
   .teksti {
@@ -221,7 +222,8 @@ body {
     border-radius: 5px;
     position: sticky;
     width: 100px;
-    bottom: 100px;   
+    /*height: 60px;*/
+    bottom: 50px;   
     text-align: center;
     float: right;
     opacity: 0.8;
@@ -231,6 +233,10 @@ body {
   }
   .bottomNav a {
     text-decoration: none;
+    
+  }
+  .bottomNav i {
+    
   }
   #mainos {
     text-decoration: none;
